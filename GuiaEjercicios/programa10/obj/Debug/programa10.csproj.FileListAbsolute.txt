@@ -1,0 +1,7 @@
+C:\Users\alexs\Desktop\C#\EjerciciosGuiaExtra\guiaEjercicios\programa10\bin\Debug\programa10.exe.config
+C:\Users\alexs\Desktop\C#\EjerciciosGuiaExtra\guiaEjercicios\programa10\bin\Debug\programa10.exe
+C:\Users\alexs\Desktop\C#\EjerciciosGuiaExtra\guiaEjercicios\programa10\bin\Debug\programa10.pdb
+C:\Users\alexs\Desktop\C#\EjerciciosGuiaExtra\guiaEjercicios\programa10\obj\Debug\programa10.csprojAssemblyReference.cache
+C:\Users\alexs\Desktop\C#\EjerciciosGuiaExtra\guiaEjercicios\programa10\obj\Debug\programa10.csproj.CoreCompileInputs.cache
+C:\Users\alexs\Desktop\C#\EjerciciosGuiaExtra\guiaEjercicios\programa10\obj\Debug\programa10.exe
+C:\Users\alexs\Desktop\C#\EjerciciosGuiaExtra\guiaEjercicios\programa10\obj\Debug\programa10.pdb

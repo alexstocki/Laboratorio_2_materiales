@@ -1,0 +1,7 @@
+C:\Users\alexs\Desktop\C#\EjerciciosGuiaExtra\guiaEjercicios\programa12\bin\Debug\programa12.exe.config
+C:\Users\alexs\Desktop\C#\EjerciciosGuiaExtra\guiaEjercicios\programa12\bin\Debug\programa12.exe
+C:\Users\alexs\Desktop\C#\EjerciciosGuiaExtra\guiaEjercicios\programa12\bin\Debug\programa12.pdb
+C:\Users\alexs\Desktop\C#\EjerciciosGuiaExtra\guiaEjercicios\programa12\obj\Debug\programa12.csprojAssemblyReference.cache
+C:\Users\alexs\Desktop\C#\EjerciciosGuiaExtra\guiaEjercicios\programa12\obj\Debug\programa12.csproj.CoreCompileInputs.cache
+C:\Users\alexs\Desktop\C#\EjerciciosGuiaExtra\guiaEjercicios\programa12\obj\Debug\programa12.exe
+C:\Users\alexs\Desktop\C#\EjerciciosGuiaExtra\guiaEjercicios\programa12\obj\Debug\programa12.pdb
