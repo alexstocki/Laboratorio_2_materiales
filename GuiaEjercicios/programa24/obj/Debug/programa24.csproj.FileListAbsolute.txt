@@ -1,0 +1,13 @@
+C:\Users\alumno\Desktop\Laboratorio_2_materiales-master\GuiaEjercicios\programa24\bin\Debug\programa24.exe.config
+C:\Users\alumno\Desktop\Laboratorio_2_materiales-master\GuiaEjercicios\programa24\bin\Debug\programa24.exe
+C:\Users\alumno\Desktop\Laboratorio_2_materiales-master\GuiaEjercicios\programa24\bin\Debug\programa24.pdb
+C:\Users\alumno\Desktop\Laboratorio_2_materiales-master\GuiaEjercicios\programa24\bin\Debug\Grado.dll
+C:\Users\alumno\Desktop\Laboratorio_2_materiales-master\GuiaEjercicios\programa24\bin\Debug\Grado.pdb
+C:\Users\alumno\Desktop\Laboratorio_2_materiales-master\GuiaEjercicios\programa24\obj\Debug\programa24.csprojAssemblyReference.cache
+C:\Users\alumno\Desktop\Laboratorio_2_materiales-master\GuiaEjercicios\programa24\obj\Debug\programa24.Form1.resources
+C:\Users\alumno\Desktop\Laboratorio_2_materiales-master\GuiaEjercicios\programa24\obj\Debug\programa24.Properties.Resources.resources
+C:\Users\alumno\Desktop\Laboratorio_2_materiales-master\GuiaEjercicios\programa24\obj\Debug\programa24.csproj.GenerateResource.cache
+C:\Users\alumno\Desktop\Laboratorio_2_materiales-master\GuiaEjercicios\programa24\obj\Debug\programa24.csproj.CoreCompileInputs.cache
+C:\Users\alumno\Desktop\Laboratorio_2_materiales-master\GuiaEjercicios\programa24\obj\Debug\programa24.csproj.CopyComplete
+C:\Users\alumno\Desktop\Laboratorio_2_materiales-master\GuiaEjercicios\programa24\obj\Debug\programa24.exe
+C:\Users\alumno\Desktop\Laboratorio_2_materiales-master\GuiaEjercicios\programa24\obj\Debug\programa24.pdb
