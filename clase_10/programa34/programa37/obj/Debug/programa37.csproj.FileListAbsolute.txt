@@ -1,0 +1,2 @@
+D:\VisualStudio\programa34\programa37\obj\Debug\programa37.csprojAssemblyReference.cache
+D:\VisualStudio\programa34\programa37\obj\Debug\programa37.csproj.CoreCompileInputs.cache
