@@ -1,0 +1,7 @@
+C:\Users\alexs\Desktop\C#\EjerciciosGuiaExtra\guiaEjercicios\programa29\bin\Debug\programa29.exe.config
+C:\Users\alexs\Desktop\C#\EjerciciosGuiaExtra\guiaEjercicios\programa29\bin\Debug\programa29.exe
+C:\Users\alexs\Desktop\C#\EjerciciosGuiaExtra\guiaEjercicios\programa29\bin\Debug\programa29.pdb
+C:\Users\alexs\Desktop\C#\EjerciciosGuiaExtra\guiaEjercicios\programa29\obj\Debug\programa29.csprojAssemblyReference.cache
+C:\Users\alexs\Desktop\C#\EjerciciosGuiaExtra\guiaEjercicios\programa29\obj\Debug\programa29.csproj.CoreCompileInputs.cache
+C:\Users\alexs\Desktop\C#\EjerciciosGuiaExtra\guiaEjercicios\programa29\obj\Debug\programa29.exe
+C:\Users\alexs\Desktop\C#\EjerciciosGuiaExtra\guiaEjercicios\programa29\obj\Debug\programa29.pdb

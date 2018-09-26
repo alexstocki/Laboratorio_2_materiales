@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{87B73722-6AF3-48A2-8023-3481394C3000}</ProjectGuid>
+    <ProjectGuid>{E3677739-23A7-46DC-ADB7-86A1E34DE868}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>programa27</RootNamespace>
-    <AssemblyName>programa27</AssemblyName>
+    <RootNamespace>programa29</RootNamespace>
+    <AssemblyName>programa29</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,6 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Equipo.cs" />
+    <Compile Include="Jugador.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

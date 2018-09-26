@@ -1,92 +1,109 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
-using System.Collections;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Collections;
 
 namespace programa27
 {
-  class Program
-  {
-    static void Main(string[] args)
+    class Program
     {
-      Console.Title = "Ejercicio 27";
-
-      List<int> numeros;
-      numeros = new List<int>();
-      Random rnum = new Random();
-      int cantidad = 20, valor, contador;
-
-      Console.WriteLine("Lista de 20 números seleccionados aleatoriamente\n");
-      for (int i = 0; i < cantidad; i++)
-      {
-        // Genero un número aleatorio
-        do
+        static void Main(string[] args)
         {
-          valor = rnum.Next(-10, 11);
-        } while (valor == 0);
-        // Agrego el número aleatorio a la lista numeros
-        numeros.Add(valor);
-      }
+            Console.Title = "Ejercicio 27";
 
-      // Imprimo la lista tal cual se cargó
-      contador = 0;
-      foreach (int numero in numeros)
-      {
-        Console.WriteLine("Posición {0}: {1}", contador + 1, numero);
-        contador++;
-      }
-      Console.ReadKey();
+            List<int> numeros = new List<int>();
+            int cantidad = 20, num;
+            Random rnum = new Random();
 
-      Console.WriteLine("\n\n°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°\n\nLista de números positivos ordenados\n");
-      numeros.Sort();
-      contador = 1;
-      foreach (int numero in numeros)
-      {
-        if (numero > 0)
-        {
-          Console.WriteLine("Posición {0}: {1}", contador, numero);
-          contador++;
+            for(int i = 0; i < cantidad; i++)
+            {
+                do
+                {
+                    num = rnum.Next(-10, 11);
+                } while (num == 0);
+
+                numeros.Add(num);
+            }
+
+            Console.WriteLine("Recorro la lista que acabo de crear y llené con números aleatorios: ");
+            int posicion = 1;
+            foreach (int numero in numeros)
+            {
+                Console.WriteLine("Posición {0}: {1}", posicion, numero);
+                posicion++;
+            }
+
+            Console.ReadKey();
+
+            Console.WriteLine("\n\nMuestro los números positivos de la lista, ordenados de menor a mayor: ");
+            numeros.Sort();
+            posicion = 1;
+            foreach (int numero in numeros)
+            {
+                if(numero > 0)
+                {
+                    Console.WriteLine("Número: {0}", numero);
+                }
+            }
+
+            Console.ReadKey();
+
+            Console.WriteLine("\n\nAhora los números negativos: ");
+            posicion = 1;
+            foreach (int numero in numeros)
+            {
+                if(numero < 0)
+                {
+                    Console.WriteLine("Número {0}: {1}", posicion, numero);
+                }
+            }
+
+            Console.ReadKey();
+
+            Console.WriteLine("\n********** AHORA COLA **********");
+            Queue cola = new Queue();
+            int numCola;
+            for(int i= 0; i < cantidad; i++)
+            {
+                do
+                {
+                    numCola = rnum.Next(-10, 11);
+                } while (numCola == 0);
+                
+                cola.Enqueue(numCola);
+            }
+
+            Console.WriteLine("\n\nImprimo la cola, sin ordenar porque no se las puede organizar: ");
+           for(int i = 0; i < cantidad; i++)
+            {
+                Console.WriteLine(cola.Dequeue().ToString());
+            }
+
+
+            Console.ReadKey();
+
+            Console.WriteLine("\n********** AHORA PILA **********");
+            Stack pila = new Stack();
+            int numPila;
+            for(int i = 0; i < cantidad; i++)
+            {
+                do
+                {
+                    numPila = rnum.Next(-10, 11);
+                } while (numPila == 0);
+
+                pila.Push(numPila);
+            }
+
+            Console.WriteLine("\n\nImprimo la pila, también sin ordenar porque no se puede: ");
+            for(int i = 0; i < cantidad; i++)
+            {
+                Console.WriteLine(pila.Pop());
+            }
+
+            Console.ReadKey();
         }
-      }
-      Console.ReadKey();
-
-      Console.WriteLine("\n\n°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°\n\nLista de números negativos ordenados\n");
-      contador = 1;
-      foreach (int numero in numeros)
-      {
-        if (numero < 0)
-        {
-          Console.WriteLine("Posición {0}: {1}", contador, numero);
-          contador++;
-        }
-      }
-      Console.ReadKey();
-
-      Console.WriteLine("\n\n°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°\n\nCola de números aleatorios\n");
-      Random rnumero = new Random();
-      // Creo la cola
-      Queue cola = new Queue(20);
-      contador = 1;
-
-      for (int i = 0; i < 20; i++)
-      {
-        do
-        {
-          valor = rnumero.Next(-10, 10);
-        } while (valor == 0);
-        // Le cargo valor
-        cola.Enqueue(valor);
-      }
-
-      for (int i = 0; i < 20; i++)
-      {
-        // Imprimo por consola
-        Console.WriteLine("Posición {0}: {1}", contador, cola.Dequeue());
-        contador++;
-      }
-      Console.ReadKey();
     }
-  }
 }

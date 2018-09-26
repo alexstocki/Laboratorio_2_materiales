@@ -1,0 +1,10 @@
+C:\Users\alexs\Desktop\C#\EjerciciosGuiaExtra\guiaEjercicios\programa28\bin\Debug\programa28.exe.config
+C:\Users\alexs\Desktop\C#\EjerciciosGuiaExtra\guiaEjercicios\programa28\bin\Debug\programa28.exe
+C:\Users\alexs\Desktop\C#\EjerciciosGuiaExtra\guiaEjercicios\programa28\bin\Debug\programa28.pdb
+C:\Users\alexs\Desktop\C#\EjerciciosGuiaExtra\guiaEjercicios\programa28\obj\Debug\programa28.csprojAssemblyReference.cache
+C:\Users\alexs\Desktop\C#\EjerciciosGuiaExtra\guiaEjercicios\programa28\obj\Debug\programa28.Form1.resources
+C:\Users\alexs\Desktop\C#\EjerciciosGuiaExtra\guiaEjercicios\programa28\obj\Debug\programa28.Properties.Resources.resources
+C:\Users\alexs\Desktop\C#\EjerciciosGuiaExtra\guiaEjercicios\programa28\obj\Debug\programa28.csproj.GenerateResource.cache
+C:\Users\alexs\Desktop\C#\EjerciciosGuiaExtra\guiaEjercicios\programa28\obj\Debug\programa28.csproj.CoreCompileInputs.cache
+C:\Users\alexs\Desktop\C#\EjerciciosGuiaExtra\guiaEjercicios\programa28\obj\Debug\programa28.exe
+C:\Users\alexs\Desktop\C#\EjerciciosGuiaExtra\guiaEjercicios\programa28\obj\Debug\programa28.pdb
