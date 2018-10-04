@@ -1,0 +1,6 @@
+E:\C#\Modelos_de_parcial\PP_2017_00\Entidades\Entidades\bin\Debug\Entidades.dll
+E:\C#\Modelos_de_parcial\PP_2017_00\Entidades\Entidades\bin\Debug\Entidades.pdb
+E:\C#\Modelos_de_parcial\PP_2017_00\Entidades\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+E:\C#\Modelos_de_parcial\PP_2017_00\Entidades\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+E:\C#\Modelos_de_parcial\PP_2017_00\Entidades\Entidades\obj\Debug\Entidades.dll
+E:\C#\Modelos_de_parcial\PP_2017_00\Entidades\Entidades\obj\Debug\Entidades.pdb

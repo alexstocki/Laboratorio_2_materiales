@@ -1,0 +1,10 @@
+E:\C#\Modelos_de_parcial\PP_2017_00\Entidades\Test\bin\Debug\Test.exe.config
+E:\C#\Modelos_de_parcial\PP_2017_00\Entidades\Test\bin\Debug\Test.exe
+E:\C#\Modelos_de_parcial\PP_2017_00\Entidades\Test\bin\Debug\Test.pdb
+E:\C#\Modelos_de_parcial\PP_2017_00\Entidades\Test\obj\Debug\Test.csprojAssemblyReference.cache
+E:\C#\Modelos_de_parcial\PP_2017_00\Entidades\Test\obj\Debug\Test.csproj.CoreCompileInputs.cache
+E:\C#\Modelos_de_parcial\PP_2017_00\Entidades\Test\obj\Debug\Test.exe
+E:\C#\Modelos_de_parcial\PP_2017_00\Entidades\Test\obj\Debug\Test.pdb
+E:\C#\Modelos_de_parcial\PP_2017_00\Entidades\Test\bin\Debug\Entidades.dll
+E:\C#\Modelos_de_parcial\PP_2017_00\Entidades\Test\bin\Debug\Entidades.pdb
+E:\C#\Modelos_de_parcial\PP_2017_00\Entidades\Test\obj\Debug\Test.csproj.CopyComplete
