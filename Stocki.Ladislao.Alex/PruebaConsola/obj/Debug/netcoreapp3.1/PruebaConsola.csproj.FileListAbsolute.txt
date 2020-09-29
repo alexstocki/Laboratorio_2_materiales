@@ -1,0 +1,16 @@
+C:\Users\ladislao.alex.stocki\source\repos\Stocki.Ladislao.Alex\PruebaConsola\bin\Debug\netcoreapp3.1\PruebaConsola.exe
+C:\Users\ladislao.alex.stocki\source\repos\Stocki.Ladislao.Alex\PruebaConsola\bin\Debug\netcoreapp3.1\PruebaConsola.deps.json
+C:\Users\ladislao.alex.stocki\source\repos\Stocki.Ladislao.Alex\PruebaConsola\bin\Debug\netcoreapp3.1\PruebaConsola.runtimeconfig.json
+C:\Users\ladislao.alex.stocki\source\repos\Stocki.Ladislao.Alex\PruebaConsola\bin\Debug\netcoreapp3.1\PruebaConsola.runtimeconfig.dev.json
+C:\Users\ladislao.alex.stocki\source\repos\Stocki.Ladislao.Alex\PruebaConsola\bin\Debug\netcoreapp3.1\PruebaConsola.dll
+C:\Users\ladislao.alex.stocki\source\repos\Stocki.Ladislao.Alex\PruebaConsola\bin\Debug\netcoreapp3.1\PruebaConsola.pdb
+C:\Users\ladislao.alex.stocki\source\repos\Stocki.Ladislao.Alex\PruebaConsola\bin\Debug\netcoreapp3.1\Entidades.dll
+C:\Users\ladislao.alex.stocki\source\repos\Stocki.Ladislao.Alex\PruebaConsola\bin\Debug\netcoreapp3.1\Entidades.pdb
+C:\Users\ladislao.alex.stocki\source\repos\Stocki.Ladislao.Alex\PruebaConsola\obj\Debug\netcoreapp3.1\PruebaConsola.csprojAssemblyReference.cache
+C:\Users\ladislao.alex.stocki\source\repos\Stocki.Ladislao.Alex\PruebaConsola\obj\Debug\netcoreapp3.1\PruebaConsola.AssemblyInfoInputs.cache
+C:\Users\ladislao.alex.stocki\source\repos\Stocki.Ladislao.Alex\PruebaConsola\obj\Debug\netcoreapp3.1\PruebaConsola.AssemblyInfo.cs
+C:\Users\ladislao.alex.stocki\source\repos\Stocki.Ladislao.Alex\PruebaConsola\obj\Debug\netcoreapp3.1\PruebaConsola.csproj.CoreCompileInputs.cache
+C:\Users\ladislao.alex.stocki\source\repos\Stocki.Ladislao.Alex\PruebaConsola\obj\Debug\netcoreapp3.1\PruebaConsola.csproj.CopyComplete
+C:\Users\ladislao.alex.stocki\source\repos\Stocki.Ladislao.Alex\PruebaConsola\obj\Debug\netcoreapp3.1\PruebaConsola.dll
+C:\Users\ladislao.alex.stocki\source\repos\Stocki.Ladislao.Alex\PruebaConsola\obj\Debug\netcoreapp3.1\PruebaConsola.pdb
+C:\Users\ladislao.alex.stocki\source\repos\Stocki.Ladislao.Alex\PruebaConsola\obj\Debug\netcoreapp3.1\PruebaConsola.genruntimeconfig.cache
