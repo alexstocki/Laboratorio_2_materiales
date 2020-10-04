@@ -1,56 +1,92 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Runtime.CompilerServices;
 using System.Text;
+using System.Xml.XPath;
 
 namespace Entidades
 {
-    public class Inventario
+    public static class Inventario
     {
         #region Atributos
-        List<Producto> productos;
+        public static List<Producto> productos;
         #endregion Atributos
 
         #region Propiedades
-        public List<Producto> Productos
+        public static List<Producto> Productos
         {
             get
             {
-                return this.productos;
+                //Inventario.EliminarVacio();
+                return productos;
             }
         }
         #endregion Propiedades
 
         #region Constructor
-        public Inventario()
+        static Inventario()
         {
-            this.productos = new List<Producto>();
+            productos = new List<Producto>();
         }
         #endregion Constructor
 
         #region Métodos
-        public bool AgregarAInventario(Producto producto)
+        public static bool AgregarAInventario(Producto producto)
         {
-            if (!(this.EstaEnInventario(this.Productos, producto)))
+            if (!(producto is null))
             {
-                this.productos.Add(producto);
-                return true;
-            }
-
-            return false;
-        }
-
-        private bool EstaEnInventario(List<Producto> listaProd, Producto producto)
-        {
-            foreach (Producto prod in listaProd)
-            {
-                if (prod == producto)
+                if (!EstaEnInventario(producto))
                 {
+                    productos.Add(producto);
                     return true;
                 }
             }
 
             return false;
+        }
+
+        private static bool EstaEnInventario(Producto producto)
+        {
+           if (Productos.Count >= 1)
+            {
+                foreach (Producto prod in productos)
+                {
+                    if (prod == producto)
+                    {
+                        return true;
+                    }
+                }
+
+           }
+
+            return false;
+        }
+
+        private static void EliminarVacio()
+        {
+            foreach (Producto p in Inventario.Productos)
+            {
+                if (p is null)
+                {
+                    Inventario.Productos.Remove(p);
+                }
+            }
+        }
+        
+
+        public static void MostrarProductos(List<int> codigosProducto)
+        {
+            foreach (int codigo in codigosProducto)
+            {
+                foreach (Producto prod in Productos)
+                {
+                    if (prod.CodigoProducto == codigo)
+                    {
+
+                    }
+                }
+            }
         }
         #endregion Métodos
     }

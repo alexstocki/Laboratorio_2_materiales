@@ -46,7 +46,7 @@ namespace Entidades
                 return this.dni;
             }
         }
-        #region Propiedades
+        #endregion Propiedades
 
         #region Constructores
         /// <summary>

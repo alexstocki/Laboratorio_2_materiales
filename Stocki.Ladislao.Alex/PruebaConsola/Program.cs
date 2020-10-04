@@ -11,34 +11,64 @@ namespace PruebaConsola
             //Console.WriteLine("Hello World!");
 
             Cliente p1 = new Cliente("Alberto", "Fernandez", "12121212", 100);
+            Empleado e1 = new Empleado("Juan", "Perez", "38181848", 1);
             Producto coca = new Producto("Coca-Cola", 1, 75.90, 10);
             Producto queso = new Producto("Tregar", 2, 85, 5);
             Producto agua = new Producto("Villavicencio", 5, 65, 20);
             Producto pan = new Producto("Fargo", 4, 50, 7);
 
-            Inventario inventario = new Inventario();
-            inventario.AgregarAInventario(coca);
-            inventario.AgregarAInventario(pan);
-            inventario.AgregarAInventario(agua);
-            inventario.AgregarAInventario(queso);
-            if (inventario.AgregarAInventario(coca))
+            if (Inventario.AgregarAInventario(coca))
             {
-                Console.WriteLine("\nSe agregó otra coca, esta mal eso\n");
+                Console.WriteLine("se agrego coca al inventario");
+                if (Inventario.AgregarAInventario(queso))
+                {
+                    Console.WriteLine("se agrego queso al inventario");
+                    if (Inventario.AgregarAInventario(agua))
+                    {
+                        Console.WriteLine("se agrego agua al inventario");
+                        if (Inventario.AgregarAInventario(pan))
+                        {
+                            Console.WriteLine("se agrego pan al inventario");
+                            if (Inventario.AgregarAInventario(coca))
+                            {
+                                Console.WriteLine("volviste a agregar coca, todo mal");
+                            }
+                            else
+                            {
+                                Console.WriteLine("Bieeen, no se volvio a agregar coca\n");
+                            }
+                        }
+                    }
+                }
+
+                if (KwikEMart.AgregarCliente(p1))
+                {
+                    Console.WriteLine("Agregaste cliente p1");
+                    if (KwikEMart.AgregarCliente(p1))
+                    {
+                        Console.WriteLine("APA se volvio a agregar al mismo cliente man");
+                    }
+                    else
+                    {
+                        Console.WriteLine("Bien, no se volvio a agregar al p1");
+                    }
+
+                    if (KwikEMart.AgregarEmpleado(e1))
+                    {
+                        Console.WriteLine("Se agrego al empleado 1");
+                        if (KwikEMart.AgregarEmpleado(e1))
+                        {
+                            Console.WriteLine("MMM se agrego de nuevo al empleado C1. Revisar.");
+                        }
+
+                        else
+                        {
+                            Console.WriteLine("Biennnnn no se volvio a agregar al empleado E1");
+                        }
+                    }
+                }
             }
-
-            Console.WriteLine("\nNo se agregó otra coca, esta bien eso\n");
-
-            Console.WriteLine("Coca, primer STOCK: " + coca.StockProducto + "\n");
-            p1.AgregarACarro(coca);
-            p1.AgregarACarro(pan);
-            p1.AgregarACarro(coca);
-
-            Console.WriteLine("Listo todas las cosas del inventario:\n");
-
-            foreach (Producto prod in inventario.Productos)
-            {
-                Console.WriteLine("{0}\t${1}\t{2}", prod.NombreProducto, prod.PrecioProducto, prod.StockProducto);
-            }
+           
 
 
 
@@ -46,7 +76,7 @@ namespace PruebaConsola
 
             
 
-            Console.WriteLine("\nNUEVO -- Coca, segundo STOCK: " + coca.StockProducto + "\n");
+            
 
             Console.ReadKey();
         }

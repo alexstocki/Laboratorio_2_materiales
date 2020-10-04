@@ -13,13 +13,6 @@ namespace Entidades
         #endregion Atributos
 
         #region Propiedades
-        protected override string Nombre
-        {
-            get
-            {
-                return this.nombre;
-            }
-        }
         /// <summary>
         /// Retorna la lista de productos del carro del cliente.
         /// REVEER SI VALE LA PENA MANTENERLA

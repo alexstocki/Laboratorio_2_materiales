@@ -72,6 +72,17 @@ namespace Entidades
         #endregion Constructor
 
         #region Operadores
+        public override string ToString()
+        {
+            StringBuilder sb = new StringBuilder();
+            sb.AppendLine(this.CodigoProducto.ToString());
+            sb.AppendLine(this.nombreProducto);
+            sb.AppendLine(this.PrecioProducto.ToString());
+            sb.AppendLine(this.StockProducto.ToString());
+
+            return sb.ToString();
+        }
+
         public static bool operator +(Producto prod, int num)
         {
             if(prod.StockProducto > 0)
@@ -96,9 +107,12 @@ namespace Entidades
 
         public static bool operator ==(Producto prod1, Producto prod2)
         {
-            if (prod1.NombreProducto == prod2.NombreProducto)
+            if (!(prod1 is null) && !(prod2 is null))
             {
-                return true;
+                if (prod1.NombreProducto == prod2.NombreProducto)
+                {
+                    return true;
+                }
             }
 
             return false;

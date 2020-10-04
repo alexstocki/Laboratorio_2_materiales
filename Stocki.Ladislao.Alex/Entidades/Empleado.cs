@@ -9,7 +9,28 @@ namespace Entidades
         int numeroEmpleado;
         List<Compra> listaCompras;
 
-        public Empleado(string nombre, string apellido, )
+        #region Propiedades
+        public int NumeroEmpleado
+        {
+            get
+            {
+                return this.numeroEmpleado;
+            }
+        }
+        #endregion
 
+        #region Constructor
+        private Empleado(string nombre, string apellido, string dni)
+            : base(nombre, apellido, dni)
+        {
+            numeroEmpleado = -1;
+        }
+
+        public Empleado(string nombre, string apellido, string dni, int numeroEmpleado)
+            : this(nombre, apellido, dni)
+        {
+            this.numeroEmpleado = numeroEmpleado;
+        }
+        #endregion
     }
 }

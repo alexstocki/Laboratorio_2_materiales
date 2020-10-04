@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30413.136
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entidades", "Entidades\Entidades.csproj", "{009FD97E-0FBD-4288-B038-082A93B8D105}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Entidades", "Entidades\Entidades.csproj", "{009FD97E-0FBD-4288-B038-082A93B8D105}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PruebaConsola", "PruebaConsola\PruebaConsola.csproj", "{19CFD6D1-5080-4D3D-B959-DD2486D16BF1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PruebaConsola", "PruebaConsola\PruebaConsola.csproj", "{19CFD6D1-5080-4D3D-B959-DD2486D16BF1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KwikEMart", "KwikEMart\KwikEMart.csproj", "{CD08F159-FF79-4C63-8F5D-1517D86FEFC2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{19CFD6D1-5080-4D3D-B959-DD2486D16BF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{19CFD6D1-5080-4D3D-B959-DD2486D16BF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{19CFD6D1-5080-4D3D-B959-DD2486D16BF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD08F159-FF79-4C63-8F5D-1517D86FEFC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD08F159-FF79-4C63-8F5D-1517D86FEFC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD08F159-FF79-4C63-8F5D-1517D86FEFC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD08F159-FF79-4C63-8F5D-1517D86FEFC2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
