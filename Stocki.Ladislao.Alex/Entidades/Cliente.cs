@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.Common;
 using System.Text;
 
 namespace Entidades
@@ -13,6 +14,16 @@ namespace Entidades
         #endregion Atributos
 
         #region Propiedades
+        /// <summary>
+        /// Retorna el numero de cliente
+        /// </summary>
+        public int NumeroDeCliente
+        {
+            get
+            {
+                return this.numeroDeCliente;
+            }
+        }
         /// <summary>
         /// Retorna la lista de productos del carro del cliente.
         /// REVEER SI VALE LA PENA MANTENERLA
@@ -69,6 +80,37 @@ namespace Entidades
             {
                 this.codigoProductos.Add(producto.CodigoProducto);
             }
+        }
+
+        /// <summary>
+        /// Sobrecarga del operador ==
+        /// Dos clientes son iguales si su DNI o número de cliente
+        /// es el mismo
+        /// </summary>
+        /// <param name="c1"></param>
+        /// <param name="c2"></param>
+        /// <returns></returns>
+        public static bool operator ==(Cliente c1, Cliente c2)
+        {
+            if (c1.Dni == c2.Dni || c1.NumeroDeCliente == c2.NumeroDeCliente)
+            {
+                return true;
+            }
+
+            return false;
+        }
+
+        /// <summary>
+        /// Sobrecarga del operador !=
+        /// Dos clientes son distintos si su DNI o número de cliente
+        /// es el mismo
+        /// </summary>
+        /// <param name="c1"></param>
+        /// <param name="c2"></param>
+        /// <returns></returns>
+        public static bool operator !=(Cliente c1, Cliente c2)
+        {
+            return !(c1 == c2);
         }
 
         public void Pagar()

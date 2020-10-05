@@ -180,23 +180,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Alex\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\ladislao.alex.stocki\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Alex\\Documents\\GitHub\\Laboratorio_2_materiales\\Stocki.Ladislao.Alex\\Entidades\\Entidades.csproj",
+      "projectUniqueName": "C:\\Users\\ladislao.alex.stocki\\Documents\\GitHub\\Laboratorio_2_materiales\\Stocki.Ladislao.Alex\\Entidades\\Entidades.csproj",
       "projectName": "Entidades",
-      "projectPath": "C:\\Users\\Alex\\Documents\\GitHub\\Laboratorio_2_materiales\\Stocki.Ladislao.Alex\\Entidades\\Entidades.csproj",
-      "packagesPath": "C:\\Users\\Alex\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Alex\\Documents\\GitHub\\Laboratorio_2_materiales\\Stocki.Ladislao.Alex\\Entidades\\obj\\",
+      "projectPath": "C:\\Users\\ladislao.alex.stocki\\Documents\\GitHub\\Laboratorio_2_materiales\\Stocki.Ladislao.Alex\\Entidades\\Entidades.csproj",
+      "packagesPath": "C:\\Users\\ladislao.alex.stocki\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ladislao.alex.stocki\\Documents\\GitHub\\Laboratorio_2_materiales\\Stocki.Ladislao.Alex\\Entidades\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Alex\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ladislao.alex.stocki\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

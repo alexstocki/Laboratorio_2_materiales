@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "Y7s01871TcLc2ZxzTcmJpNeI1+CDrFoNvlJs62jPNgqj34PFJmcwb4TOP6SbLBnshGYqgkHKKICkp5h9BqGAWA==",
+  "dgSpecHash": "6JJ4kf2w9X12bQzxE6/to5Ia+7WZHxgJ99/AlaJCMVufacuIPewTMEXwZt4x5SyhTyR75cqbhto/+DPH1hTXxg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Alex\\Documents\\GitHub\\Laboratorio_2_materiales\\Stocki.Ladislao.Alex\\Entidades\\Entidades.csproj",
+  "projectFilePath": "C:\\Users\\ladislao.alex.stocki\\Documents\\GitHub\\Laboratorio_2_materiales\\Stocki.Ladislao.Alex\\Entidades\\Entidades.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Alex\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\Alex\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\ladislao.alex.stocki\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\ladislao.alex.stocki\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
   ],
   "logs": []
 }

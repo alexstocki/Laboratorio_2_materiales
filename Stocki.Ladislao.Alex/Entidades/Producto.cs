@@ -14,6 +14,9 @@ namespace Entidades
         #endregion Atributos
 
         #region Propiedades
+        /// <summary>
+        /// Retorna el nombre del producto
+        /// </summary>
         public string NombreProducto
         {
             get
@@ -22,6 +25,9 @@ namespace Entidades
             }
         }
 
+        /// <summary>
+        /// Retorna el código del producto
+        /// </summary>
         public int CodigoProducto
         {
             get
@@ -30,6 +36,9 @@ namespace Entidades
             }
         }
 
+        /// <summary>
+        /// Retorna el precio del producto
+        /// </summary>
         public double PrecioProducto
         {
             get
@@ -38,6 +47,10 @@ namespace Entidades
             }
         }
 
+        /// <summary>
+        /// Retorna el stock del producto
+        /// Modifica el stock del producto
+        /// </summary>
         public int StockProducto
         {
             get
@@ -47,31 +60,33 @@ namespace Entidades
 
             set
             {
-                this.stockProducto = value;
+                if(value < this.StockProducto || value > this.StockProducto)
+                {
+                    this.stockProducto = value;
+                }
             }
         }
         #endregion Propiedades
 
         #region Constructor
-        public Producto()
-        {
-            this.stockProducto = -1;
-        }
-
-        public Producto(string nombre, int codigo, double precio)
+        /// <summary>
+        /// Constructor de Producto 
+        /// </summary>
+        public Producto(string nombre, int codigo, double precio, int stock)
         {
             this.nombreProducto = nombre;
             this.codigoProducto = codigo;
             this.precioProducto = precio;
-        }
-
-        public Producto(string nombre, int codigo, double precio, int stock):this(nombre, codigo, precio)
-        {
             this.stockProducto = stock;
         }
         #endregion Constructor
 
         #region Operadores
+        /// <summary>
+        /// Sobrecarga del método ToString
+        /// Retorna un string con los datos del producto.
+        /// </summary>
+        /// <returns></returns>
         public override string ToString()
         {
             StringBuilder sb = new StringBuilder();
@@ -83,6 +98,13 @@ namespace Entidades
             return sb.ToString();
         }
 
+        /// <summary>
+        /// Sobrecarga del operador +
+        /// Aumenta el stock del producto
+        /// </summary>
+        /// <param name="prod"></param>
+        /// <param name="num"></param>
+        /// <returns></returns>
         public static bool operator +(Producto prod, int num)
         {
             if(prod.StockProducto > 0)
@@ -94,6 +116,13 @@ namespace Entidades
             return false;
         }
 
+        /// <summary>
+        /// Sobrecarga del operador -
+        /// Disminuye el stock del producto
+        /// </summary>
+        /// <param name="prod"></param>
+        /// <param name="num"></param>
+        /// <returns></returns>
         public static bool operator -(Producto prod, int num)
         {
             if (prod.StockProducto > 0)
@@ -105,19 +134,35 @@ namespace Entidades
             return false;
         }
 
+        /// <summary>
+        /// Sobrecarga del operador ==
+        /// Dos productos son iguales cuando:
+        /// Su codigo de producto o nombre son iguales
+        /// </summary>
+        /// <param name="prod1"></param>
+        /// <param name="prod2"></param>
+        /// <returns></returns>
         public static bool operator ==(Producto prod1, Producto prod2)
         {
             if (!(prod1 is null) && !(prod2 is null))
             {
-                if (prod1.NombreProducto == prod2.NombreProducto)
+                if (prod1.CodigoProducto == prod2.CodigoProducto || prod1.NombreProducto == prod2.NombreProducto)
                 {
-                    return true;
+                    return true;  
                 }
             }
 
             return false;
         }
 
+        /// <summary>
+        /// Sobrecarga del operador !=
+        /// Dos productos son distintos si:
+        /// Su codigo de producto y nombre son distintos.
+        /// </summary>
+        /// <param name="prod1"></param>
+        /// <param name="prod2"></param>
+        /// <returns></returns>
         public static bool operator !=(Producto prod1, Producto prod2)
         {
             return !(prod1 == prod2);

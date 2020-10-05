@@ -61,6 +61,12 @@ namespace Entidades
             this.dni = "00000000";
         }
 
+        /// <summary>
+        /// Constructor Persona
+        /// </summary>
+        /// <param name="nombre"></param>
+        /// <param name="apellido"></param>
+        /// <param name="dni"></param>
         public Persona(string nombre, string apellido, string dni)
         {
             this.nombre = nombre;

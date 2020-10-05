@@ -14,17 +14,24 @@ namespace Entidades
         #endregion Atributos
 
         #region Propiedades
+        /// <summary>
+        /// Retorna la lista de productos que contiene
+        /// Inventario
+        /// </summary>
         public static List<Producto> Productos
         {
             get
             {
-                //Inventario.EliminarVacio();
                 return productos;
             }
         }
         #endregion Propiedades
 
         #region Constructor
+        /// <summary>
+        /// Constructor estático de Inventario.
+        /// Inicializa la lista de productos.
+        /// </summary>
         static Inventario()
         {
             productos = new List<Producto>();
@@ -32,6 +39,13 @@ namespace Entidades
         #endregion Constructor
 
         #region Métodos
+        /// <summary>
+        /// Agrega un producto al Inventario siempre y cuando:
+        /// producto no sea nulo y no se encuentre en Inventario.
+        /// </summary>
+        /// <param name="producto"></param>
+        /// <returns>true si se pudo agregar el producto, 
+        /// false caso contrario</returns>
         public static bool AgregarAInventario(Producto producto)
         {
             if (!(producto is null))
@@ -46,6 +60,11 @@ namespace Entidades
             return false;
         }
 
+        /// <summary>
+        /// Verifica si el producto ya se encuentra en Inventario
+        /// </summary>
+        /// <param name="producto"></param>
+        /// <returns>true si está en Inventario, false caso contrario</returns>
         private static bool EstaEnInventario(Producto producto)
         {
            if (Productos.Count >= 1)
@@ -61,32 +80,6 @@ namespace Entidades
            }
 
             return false;
-        }
-
-        private static void EliminarVacio()
-        {
-            foreach (Producto p in Inventario.Productos)
-            {
-                if (p is null)
-                {
-                    Inventario.Productos.Remove(p);
-                }
-            }
-        }
-        
-
-        public static void MostrarProductos(List<int> codigosProducto)
-        {
-            foreach (int codigo in codigosProducto)
-            {
-                foreach (Producto prod in Productos)
-                {
-                    if (prod.CodigoProducto == codigo)
-                    {
-
-                    }
-                }
-            }
         }
         #endregion Métodos
     }
