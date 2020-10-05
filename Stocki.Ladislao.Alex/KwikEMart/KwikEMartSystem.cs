@@ -109,7 +109,7 @@ namespace KwikEMart
 
         }
 
-        #region Listar
+        #region Botones listas
         private void btn_Inventario_Click(object sender, EventArgs e)
         {
             FormInventario frmInventario = new FormInventario();
@@ -140,7 +140,7 @@ namespace KwikEMart
         }
         #endregion
 
-        #region Cargas
+        #region Botones cargas
         private void btnCargarProducto_Click(object sender, EventArgs e)
         {
             FormCargaProducto frmCargaProducto = new FormCargaProducto();

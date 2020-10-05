@@ -31,30 +31,26 @@ namespace KwikEMart
         #region Botones
         private void btnCargarProducto_Click(object sender, EventArgs e)
         {
-            codProd = Validaciones.TextToInt(txtboxCodigoProducto.Text);
-            if (codProd >= 0)
+            auxCodigo = Validaciones.NumeroProducto();
+            auxNombre = txtboxNombreProducto.Text;
+
+            preProd = Validaciones.TextToDouble(txtboxPrecioProducto.Text);
+            if (preProd >= 0)
             {
-                auxCodigo = codProd;
-                auxNombre = txtboxNombreProducto.Text;
+                auxPrecio = preProd;
 
-                preProd = Validaciones.TextToDouble(txtboxPrecioProducto.Text);
-                if (preProd >= 0)
+                stoProd = Validaciones.TextToInt(txtboxStockProducto.Text);
+                if (stoProd >= 0)
                 {
-                    auxPrecio = preProd;
-
-                    stoProd = Validaciones.TextToInt(txtboxStockProducto.Text);
-                    if (stoProd >= 0)
+                    auxStock = stoProd;
+                    this.producto = new Producto(auxNombre, auxCodigo, auxPrecio, auxStock);
+                    if (Inventario.AgregarAInventario(producto))
                     {
-                        auxStock = stoProd;
-                        this.producto = new Producto(auxNombre, auxCodigo, auxPrecio, auxStock);
-                        if (Inventario.AgregarAInventario(producto))
-                        {
-                            MessageBox.Show("Producto cargado exitosamente.");
-                        }
-                        else
-                        {
-                            MessageBox.Show("No se cargó el producto al inventario.");
-                        }
+                        MessageBox.Show("Producto cargado exitosamente.");
+                    }
+                    else
+                    {
+                        MessageBox.Show("No se cargó el producto al inventario.");
                     }
                 }
             }

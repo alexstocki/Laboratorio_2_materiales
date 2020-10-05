@@ -123,5 +123,20 @@ namespace Entidades
             maxNum++;
             return maxNum;
         }
+
+        public static int NumeroProducto()
+        {
+            int maxNum = 0;
+
+            foreach (Producto p in Inventario.Productos)
+            {
+                if (p.CodigoProducto >= maxNum)
+                {
+                    maxNum = p.CodigoProducto;
+                }
+            }
+            maxNum++;
+            return maxNum;
+        }
     }
 }
