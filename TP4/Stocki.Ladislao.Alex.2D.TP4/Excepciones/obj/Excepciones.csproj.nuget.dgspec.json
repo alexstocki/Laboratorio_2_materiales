@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ladislao.alex.stocki\\Desktop\\UTN-laboratorio2\\TP4\\Stocki.Ladislao.Alex.2D.TP4\\Excepciones\\Excepciones.csproj": {}
+    "C:\\Users\\ladislao.alex.stocki\\Documents\\GitHub\\Laboratorio_2_materiales\\TP4\\Stocki.Ladislao.Alex.2D.TP4\\Excepciones\\Excepciones.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ladislao.alex.stocki\\Desktop\\UTN-laboratorio2\\TP4\\Stocki.Ladislao.Alex.2D.TP4\\Excepciones\\Excepciones.csproj": {
+    "C:\\Users\\ladislao.alex.stocki\\Documents\\GitHub\\Laboratorio_2_materiales\\TP4\\Stocki.Ladislao.Alex.2D.TP4\\Excepciones\\Excepciones.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ladislao.alex.stocki\\Desktop\\UTN-laboratorio2\\TP4\\Stocki.Ladislao.Alex.2D.TP4\\Excepciones\\Excepciones.csproj",
+        "projectUniqueName": "C:\\Users\\ladislao.alex.stocki\\Documents\\GitHub\\Laboratorio_2_materiales\\TP4\\Stocki.Ladislao.Alex.2D.TP4\\Excepciones\\Excepciones.csproj",
         "projectName": "Excepciones",
-        "projectPath": "C:\\Users\\ladislao.alex.stocki\\Desktop\\UTN-laboratorio2\\TP4\\Stocki.Ladislao.Alex.2D.TP4\\Excepciones\\Excepciones.csproj",
+        "projectPath": "C:\\Users\\ladislao.alex.stocki\\Documents\\GitHub\\Laboratorio_2_materiales\\TP4\\Stocki.Ladislao.Alex.2D.TP4\\Excepciones\\Excepciones.csproj",
         "packagesPath": "C:\\Users\\ladislao.alex.stocki\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ladislao.alex.stocki\\Desktop\\UTN-laboratorio2\\TP4\\Stocki.Ladislao.Alex.2D.TP4\\Excepciones\\obj\\",
+        "outputPath": "C:\\Users\\ladislao.alex.stocki\\Documents\\GitHub\\Laboratorio_2_materiales\\TP4\\Stocki.Ladislao.Alex.2D.TP4\\Excepciones\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ladislao.alex.stocki\\AppData\\Roaming\\NuGet\\NuGet.Config",

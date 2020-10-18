@@ -201,11 +201,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ladislao.alex.stocki\\Desktop\\UTN-laboratorio2\\TP4\\Stocki.Ladislao.Alex.2D.TP4\\Clases Instanciables\\Clases Instanciables.csproj",
+      "projectUniqueName": "C:\\Users\\ladislao.alex.stocki\\Documents\\GitHub\\Laboratorio_2_materiales\\TP4\\Stocki.Ladislao.Alex.2D.TP4\\Clases Instanciables\\Clases Instanciables.csproj",
       "projectName": "Clases Instanciables",
-      "projectPath": "C:\\Users\\ladislao.alex.stocki\\Desktop\\UTN-laboratorio2\\TP4\\Stocki.Ladislao.Alex.2D.TP4\\Clases Instanciables\\Clases Instanciables.csproj",
+      "projectPath": "C:\\Users\\ladislao.alex.stocki\\Documents\\GitHub\\Laboratorio_2_materiales\\TP4\\Stocki.Ladislao.Alex.2D.TP4\\Clases Instanciables\\Clases Instanciables.csproj",
       "packagesPath": "C:\\Users\\ladislao.alex.stocki\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ladislao.alex.stocki\\Desktop\\UTN-laboratorio2\\TP4\\Stocki.Ladislao.Alex.2D.TP4\\Clases Instanciables\\obj\\",
+      "outputPath": "C:\\Users\\ladislao.alex.stocki\\Documents\\GitHub\\Laboratorio_2_materiales\\TP4\\Stocki.Ladislao.Alex.2D.TP4\\Clases Instanciables\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ladislao.alex.stocki\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -221,8 +221,8 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "C:\\Users\\ladislao.alex.stocki\\Desktop\\UTN-laboratorio2\\TP4\\Stocki.Ladislao.Alex.2D.TP4\\Clases Abstractas\\Clases Abstractas.csproj": {
-              "projectPath": "C:\\Users\\ladislao.alex.stocki\\Desktop\\UTN-laboratorio2\\TP4\\Stocki.Ladislao.Alex.2D.TP4\\Clases Abstractas\\Clases Abstractas.csproj"
+            "C:\\Users\\ladislao.alex.stocki\\Documents\\GitHub\\Laboratorio_2_materiales\\TP4\\Stocki.Ladislao.Alex.2D.TP4\\Clases Abstractas\\Clases Abstractas.csproj": {
+              "projectPath": "C:\\Users\\ladislao.alex.stocki\\Documents\\GitHub\\Laboratorio_2_materiales\\TP4\\Stocki.Ladislao.Alex.2D.TP4\\Clases Abstractas\\Clases Abstractas.csproj"
             }
           }
         }
