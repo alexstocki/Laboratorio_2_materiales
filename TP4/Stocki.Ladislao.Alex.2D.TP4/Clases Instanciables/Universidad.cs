@@ -17,25 +17,38 @@ namespace Clases_Instanciables
         public List<Alumno> Alumnos
         {
             get { return this.alumnos; }
-            set { }
+            set { this.alumnos = value; }
         }
 
         public List<Profesor> Instructores
         {
             get { return this.profesores; }
-            set { }
+            set { this.profesores = value; }
         }
 
         public List<Jornada> Jornadas
         {
             get { return this.jornada; }
-            set { }
+            set { this.jornada = value; }
         }
 
         public Jornada this[int i]
         {
-            get {; }
-            set {; }
+            get 
+            {
+                if (i >= 0 && i < this.Jornadas.Count)
+                {
+                    return this.Jornadas[i];
+                }
+                return null;
+            }
+            set 
+            {
+                if (i >= 0 && i < this.Jornadas.Count)
+                {
+                    this.Jornadas[i] = value;
+                }    
+            }
         }
         #endregion
 
@@ -57,7 +70,14 @@ namespace Clases_Instanciables
 
         public static bool operator ==(Universidad g, Alumno a)
         {
-
+            foreach (Alumno alumno in g.Alumnos)
+            {
+                if (alumno == a)
+                {
+                    return true; 
+                }
+            }
+            return false;
         }
 
         public static bool operator !=(Universidad g, Alumno a)
@@ -67,7 +87,14 @@ namespace Clases_Instanciables
 
         public static bool operator ==(Universidad g, Profesor i)
         {
-
+            foreach (Profesor profesor in g.Instructores)
+            {
+                if (profesor == i)
+                {
+                    return true;
+                }
+            }
+            return false;
         }
 
         public static bool operator !=(Universidad g, Profesor i)

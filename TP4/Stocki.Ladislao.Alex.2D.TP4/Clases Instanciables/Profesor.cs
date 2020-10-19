@@ -19,9 +19,10 @@ namespace Clases_Instanciables
 
         }
 
-        protected string MostrarDatos()
+        protected override string MostrarDatos()
         {
-
+            StringBuilder profesor = new StringBuilder();
+            profesor.AppendLine(base.MostrarDatos());
         }
 
         public static bool operator ==(Profesor profesor, EClases clase)

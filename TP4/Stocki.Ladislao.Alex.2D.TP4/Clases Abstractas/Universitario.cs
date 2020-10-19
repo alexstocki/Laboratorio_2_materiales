@@ -43,10 +43,7 @@ namespace Clases_Abstractas
             return !(pg1 == pg2);
         }
 
-        protected abstract string ParticiparEnClase()
-        {
-
-        }
+        protected abstract string ParticiparEnClase();
 
         public Universitario()
         {
