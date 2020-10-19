@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "VJvorgCx2FL2EMqHtNbNVMSSD+Ld+f4gkA3mNbybzY8r5bis9RPgJrpKKZ//UeKk7X8FsF1ua5Q9G0pZjeuLMg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Alex\\Documents\\GitHub\\Laboratorio_2_materiales\\Ejercicios_Repaso\\Centralita\\Entidades\\Entidades\\Entidades.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Alex\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Alex\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

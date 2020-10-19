@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Security.Cryptography;
+using System.Text;
 
 namespace Clases_Abstractas
 {
@@ -13,18 +14,29 @@ namespace Clases_Abstractas
         #endregion
 
         #region Propiedades
-        public string Apellido { get { return this.apellido; } set {; } }
+        public string Apellido { get { return this.apellido; } set { this.apellido = this.ValidarNombreApellido(value); } }
 
-        public int DNI { get { return this.dni; } set {; } }
+        public int DNI { get { return this.dni; } set { this.dni = this.ValidarDni(this.Nacionalidad, value); } }
 
-        public ENacionalidad Nacionalidad { get { return this.nacionalidad; } set {; } }
+        public ENacionalidad Nacionalidad { get { return this.nacionalidad; } set { this.nacionalidad = value; } }
 
-        public string Nombre { get { return this.nombre; } set {; } }
+        public string Nombre { get { return this.nombre; } set { this.nombre = this.ValidarNombreApellido(value); } }
 
-        public string StringToDNI { set {; } }
+        public string StringToDNI 
+        { 
+            set 
+            { 
+                int dni = this.ValidarDni(this.Nacionalidad, value);
+                this.DNI = dni;
+            } 
+        }
         #endregion
 
         #region Métodos
+        /// <summary>
+        /// Constructor sin parametros
+        /// necesario para la serializacion
+        /// </summary>
         public Persona()
         {
 
@@ -32,22 +44,29 @@ namespace Clases_Abstractas
 
         public Persona(string nombre, string apellido, ENacionalidad nacionalidad)
         {
-
+            this.Nombre = nombre;
+            this.Apellido = apellido;
+            this.Nacionalidad = nacionalidad;
         }
 
         public Persona(string nombre, string apellido, int dni, ENacionalidad nacionalidad)
+            : this(nombre, apellido, nacionalidad)
         {
-
+            this.DNI = dni;
         }
 
         public Persona(string nombre, string apellido, string dni, ENacionalidad nacionalidad)
+            : this(nombre, apellido, nacionalidad)
         {
-
+            this.StringToDNI = dni;
         }
 
         public override string ToString()
         {
-            return base.ToString();
+            StringBuilder persona = new StringBuilder();
+            persona.AppendFormat("{0}, {1}\nDNI: {2} Nacionalidad: {3}", this.Apellido, 
+                this.Nombre, this.DNI, this.Nacionalidad);
+            return persona.ToString();
         }
 
         private int ValidarDni(ENacionalidad nacionalidad, int dato)

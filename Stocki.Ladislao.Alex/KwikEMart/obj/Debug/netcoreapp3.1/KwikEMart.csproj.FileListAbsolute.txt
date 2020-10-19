@@ -50,3 +50,4 @@ C:\Users\ladislao.alex.stocki\Documents\GitHub\Laboratorio_2_materiales\Stocki.L
 C:\Users\ladislao.alex.stocki\Documents\GitHub\Laboratorio_2_materiales\Stocki.Ladislao.Alex\KwikEMart\obj\Debug\netcoreapp3.1\KwikEMart.FormListaCompras.resources
 C:\Users\Alex\Documents\GitHub\Laboratorio_2_materiales\Stocki.Ladislao.Alex\KwikEMart\obj\Debug\netcoreapp3.1\KwikEMart.FormCompra.resources
 C:\Users\Alex\Documents\GitHub\Laboratorio_2_materiales\Stocki.Ladislao.Alex\KwikEMart\obj\Debug\netcoreapp3.1\KwikEMart.FormListaCompras.resources
+C:\Users\Alex\Documents\GitHub\Laboratorio_2_materiales\Stocki.Ladislao.Alex\KwikEMart\obj\Debug\netcoreapp3.1\KwikEMart.Properties.Resources.resources

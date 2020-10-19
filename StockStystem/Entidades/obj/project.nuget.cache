@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "TQN9gFRqo6ik57puuB5sRCB/zeVzdm8d1fajOHdjL4IY7hyIhW71jPVlY3at3IZ0Sazs+KZOjmYQRW5MAOzgZA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Alex\\Documents\\GitHub\\Laboratorio_2_materiales\\StockStystem\\Entidades\\Entidades.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Alex\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Alex\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

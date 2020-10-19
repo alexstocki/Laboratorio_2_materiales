@@ -1,0 +1,13 @@
+C:\Users\Alex\Documents\GitHub\Laboratorio_2_materiales\Ejercicios_Repaso\Excepciones\Excepcioens_prueba\Programa-test\bin\Debug\netcoreapp3.1\Programa-test.exe
+C:\Users\Alex\Documents\GitHub\Laboratorio_2_materiales\Ejercicios_Repaso\Excepciones\Excepcioens_prueba\Programa-test\bin\Debug\netcoreapp3.1\Programa-test.deps.json
+C:\Users\Alex\Documents\GitHub\Laboratorio_2_materiales\Ejercicios_Repaso\Excepciones\Excepcioens_prueba\Programa-test\bin\Debug\netcoreapp3.1\Programa-test.runtimeconfig.json
+C:\Users\Alex\Documents\GitHub\Laboratorio_2_materiales\Ejercicios_Repaso\Excepciones\Excepcioens_prueba\Programa-test\bin\Debug\netcoreapp3.1\Programa-test.runtimeconfig.dev.json
+C:\Users\Alex\Documents\GitHub\Laboratorio_2_materiales\Ejercicios_Repaso\Excepciones\Excepcioens_prueba\Programa-test\bin\Debug\netcoreapp3.1\Programa-test.dll
+C:\Users\Alex\Documents\GitHub\Laboratorio_2_materiales\Ejercicios_Repaso\Excepciones\Excepcioens_prueba\Programa-test\bin\Debug\netcoreapp3.1\Programa-test.pdb
+C:\Users\Alex\Documents\GitHub\Laboratorio_2_materiales\Ejercicios_Repaso\Excepciones\Excepcioens_prueba\Programa-test\obj\Debug\netcoreapp3.1\Programa-test.csprojAssemblyReference.cache
+C:\Users\Alex\Documents\GitHub\Laboratorio_2_materiales\Ejercicios_Repaso\Excepciones\Excepcioens_prueba\Programa-test\obj\Debug\netcoreapp3.1\Programa-test.AssemblyInfoInputs.cache
+C:\Users\Alex\Documents\GitHub\Laboratorio_2_materiales\Ejercicios_Repaso\Excepciones\Excepcioens_prueba\Programa-test\obj\Debug\netcoreapp3.1\Programa-test.AssemblyInfo.cs
+C:\Users\Alex\Documents\GitHub\Laboratorio_2_materiales\Ejercicios_Repaso\Excepciones\Excepcioens_prueba\Programa-test\obj\Debug\netcoreapp3.1\Programa-test.csproj.CoreCompileInputs.cache
+C:\Users\Alex\Documents\GitHub\Laboratorio_2_materiales\Ejercicios_Repaso\Excepciones\Excepcioens_prueba\Programa-test\obj\Debug\netcoreapp3.1\Programa-test.dll
+C:\Users\Alex\Documents\GitHub\Laboratorio_2_materiales\Ejercicios_Repaso\Excepciones\Excepcioens_prueba\Programa-test\obj\Debug\netcoreapp3.1\Programa-test.pdb
+C:\Users\Alex\Documents\GitHub\Laboratorio_2_materiales\Ejercicios_Repaso\Excepciones\Excepcioens_prueba\Programa-test\obj\Debug\netcoreapp3.1\Programa-test.genruntimeconfig.cache

@@ -53,10 +53,9 @@
             this.btn_cerrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_cerrar.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.btn_cerrar.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btn_cerrar.Location = new System.Drawing.Point(969, 0);
-            this.btn_cerrar.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btn_cerrar.Location = new System.Drawing.Point(848, 0);
             this.btn_cerrar.Name = "btn_cerrar";
-            this.btn_cerrar.Size = new System.Drawing.Size(53, 63);
+            this.btn_cerrar.Size = new System.Drawing.Size(46, 47);
             this.btn_cerrar.TabIndex = 0;
             this.btn_cerrar.Text = "X";
             this.btn_cerrar.UseVisualStyleBackColor = false;
@@ -69,10 +68,9 @@
             this.btn_minimizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_minimizar.ForeColor = System.Drawing.Color.White;
             this.btn_minimizar.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btn_minimizar.Location = new System.Drawing.Point(910, 0);
-            this.btn_minimizar.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btn_minimizar.Location = new System.Drawing.Point(796, 0);
             this.btn_minimizar.Name = "btn_minimizar";
-            this.btn_minimizar.Size = new System.Drawing.Size(53, 63);
+            this.btn_minimizar.Size = new System.Drawing.Size(46, 47);
             this.btn_minimizar.TabIndex = 0;
             this.btn_minimizar.Text = "__";
             this.btn_minimizar.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -86,9 +84,8 @@
             this.panel1.Controls.Add(this.btn_cerrar);
             this.panel1.Controls.Add(this.btn_minimizar);
             this.panel1.Location = new System.Drawing.Point(-3, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1022, 63);
+            this.panel1.Size = new System.Drawing.Size(894, 47);
             this.panel1.TabIndex = 1;
             // 
             // lbl_tituloPrincipal
@@ -96,9 +93,9 @@
             this.lbl_tituloPrincipal.AutoSize = true;
             this.lbl_tituloPrincipal.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lbl_tituloPrincipal.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.lbl_tituloPrincipal.Location = new System.Drawing.Point(17, 12);
+            this.lbl_tituloPrincipal.Location = new System.Drawing.Point(15, 9);
             this.lbl_tituloPrincipal.Name = "lbl_tituloPrincipal";
-            this.lbl_tituloPrincipal.Size = new System.Drawing.Size(209, 26);
+            this.lbl_tituloPrincipal.Size = new System.Drawing.Size(169, 22);
             this.lbl_tituloPrincipal.TabIndex = 1;
             this.lbl_tituloPrincipal.Text = "Kwik E Mart System";
             // 
@@ -114,17 +111,17 @@
             this.panel2.Controls.Add(this.btnEmpleados);
             this.panel2.Controls.Add(this.btnInventario);
             this.panel2.Controls.Add(this.panel_logo);
-            this.panel2.Location = new System.Drawing.Point(-3, 60);
-            this.panel2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.panel2.Location = new System.Drawing.Point(-3, 45);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(222, 791);
+            this.panel2.Size = new System.Drawing.Size(194, 593);
             this.panel2.TabIndex = 2;
             // 
             // btnListarCompras
             // 
-            this.btnListarCompras.Location = new System.Drawing.Point(0, 708);
+            this.btnListarCompras.Location = new System.Drawing.Point(0, 531);
+            this.btnListarCompras.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnListarCompras.Name = "btnListarCompras";
-            this.btnListarCompras.Size = new System.Drawing.Size(222, 60);
+            this.btnListarCompras.Size = new System.Drawing.Size(194, 45);
             this.btnListarCompras.TabIndex = 5;
             this.btnListarCompras.Text = "Listar Compras";
             this.btnListarCompras.UseVisualStyleBackColor = true;
@@ -132,9 +129,10 @@
             // 
             // btnComprar
             // 
-            this.btnComprar.Location = new System.Drawing.Point(0, 642);
+            this.btnComprar.Location = new System.Drawing.Point(0, 482);
+            this.btnComprar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnComprar.Name = "btnComprar";
-            this.btnComprar.Size = new System.Drawing.Size(222, 60);
+            this.btnComprar.Size = new System.Drawing.Size(194, 45);
             this.btnComprar.TabIndex = 3;
             this.btnComprar.Text = "Comprar";
             this.btnComprar.UseVisualStyleBackColor = true;
@@ -142,9 +140,10 @@
             // 
             // btnCargarCliente
             // 
-            this.btnCargarCliente.Location = new System.Drawing.Point(0, 555);
+            this.btnCargarCliente.Location = new System.Drawing.Point(0, 416);
+            this.btnCargarCliente.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnCargarCliente.Name = "btnCargarCliente";
-            this.btnCargarCliente.Size = new System.Drawing.Size(222, 60);
+            this.btnCargarCliente.Size = new System.Drawing.Size(194, 45);
             this.btnCargarCliente.TabIndex = 3;
             this.btnCargarCliente.Text = "Cargar Cliente";
             this.btnCargarCliente.UseVisualStyleBackColor = true;
@@ -152,9 +151,10 @@
             // 
             // btnCargarEmpleado
             // 
-            this.btnCargarEmpleado.Location = new System.Drawing.Point(0, 489);
+            this.btnCargarEmpleado.Location = new System.Drawing.Point(0, 367);
+            this.btnCargarEmpleado.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnCargarEmpleado.Name = "btnCargarEmpleado";
-            this.btnCargarEmpleado.Size = new System.Drawing.Size(222, 60);
+            this.btnCargarEmpleado.Size = new System.Drawing.Size(194, 45);
             this.btnCargarEmpleado.TabIndex = 3;
             this.btnCargarEmpleado.Text = "Cargar Empleado";
             this.btnCargarEmpleado.UseVisualStyleBackColor = true;
@@ -162,9 +162,10 @@
             // 
             // btnCargarProducto
             // 
-            this.btnCargarProducto.Location = new System.Drawing.Point(0, 423);
+            this.btnCargarProducto.Location = new System.Drawing.Point(0, 317);
+            this.btnCargarProducto.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnCargarProducto.Name = "btnCargarProducto";
-            this.btnCargarProducto.Size = new System.Drawing.Size(222, 60);
+            this.btnCargarProducto.Size = new System.Drawing.Size(194, 45);
             this.btnCargarProducto.TabIndex = 3;
             this.btnCargarProducto.Text = "Cargar Producto";
             this.btnCargarProducto.UseVisualStyleBackColor = true;
@@ -172,9 +173,10 @@
             // 
             // btnClientes
             // 
-            this.btnClientes.Location = new System.Drawing.Point(0, 300);
+            this.btnClientes.Location = new System.Drawing.Point(0, 225);
+            this.btnClientes.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnClientes.Name = "btnClientes";
-            this.btnClientes.Size = new System.Drawing.Size(222, 60);
+            this.btnClientes.Size = new System.Drawing.Size(194, 45);
             this.btnClientes.TabIndex = 3;
             this.btnClientes.Text = "Lista Clientes";
             this.btnClientes.UseVisualStyleBackColor = true;
@@ -182,9 +184,10 @@
             // 
             // btnEmpleados
             // 
-            this.btnEmpleados.Location = new System.Drawing.Point(0, 234);
+            this.btnEmpleados.Location = new System.Drawing.Point(0, 176);
+            this.btnEmpleados.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnEmpleados.Name = "btnEmpleados";
-            this.btnEmpleados.Size = new System.Drawing.Size(222, 60);
+            this.btnEmpleados.Size = new System.Drawing.Size(194, 45);
             this.btnEmpleados.TabIndex = 3;
             this.btnEmpleados.Text = "Lista Empleados";
             this.btnEmpleados.UseVisualStyleBackColor = true;
@@ -192,10 +195,9 @@
             // 
             // btnInventario
             // 
-            this.btnInventario.Location = new System.Drawing.Point(0, 167);
-            this.btnInventario.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnInventario.Location = new System.Drawing.Point(0, 125);
             this.btnInventario.Name = "btnInventario";
-            this.btnInventario.Size = new System.Drawing.Size(222, 60);
+            this.btnInventario.Size = new System.Drawing.Size(194, 45);
             this.btnInventario.TabIndex = 4;
             this.btnInventario.Text = "Inventario";
             this.btnInventario.UseVisualStyleBackColor = true;
@@ -204,21 +206,19 @@
             // panel_logo
             // 
             this.panel_logo.Location = new System.Drawing.Point(0, 0);
-            this.panel_logo.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panel_logo.Name = "panel_logo";
-            this.panel_logo.Size = new System.Drawing.Size(222, 172);
+            this.panel_logo.Size = new System.Drawing.Size(194, 129);
             this.panel_logo.TabIndex = 3;
             // 
             // KwikEMartSystem
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(191)))), ((int)(((byte)(234)))));
-            this.ClientSize = new System.Drawing.Size(1018, 849);
+            this.ClientSize = new System.Drawing.Size(891, 637);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "KwikEMartSystem";
             this.Opacity = 0.9D;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

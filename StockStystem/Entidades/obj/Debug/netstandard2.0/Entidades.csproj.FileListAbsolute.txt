@@ -1,0 +1,9 @@
+C:\Users\Alex\Documents\GitHub\Laboratorio_2_materiales\StockStystem\Entidades\bin\Debug\netstandard2.0\Entidades.deps.json
+C:\Users\Alex\Documents\GitHub\Laboratorio_2_materiales\StockStystem\Entidades\bin\Debug\netstandard2.0\Entidades.dll
+C:\Users\Alex\Documents\GitHub\Laboratorio_2_materiales\StockStystem\Entidades\bin\Debug\netstandard2.0\Entidades.pdb
+C:\Users\Alex\Documents\GitHub\Laboratorio_2_materiales\StockStystem\Entidades\obj\Debug\netstandard2.0\Entidades.csprojAssemblyReference.cache
+C:\Users\Alex\Documents\GitHub\Laboratorio_2_materiales\StockStystem\Entidades\obj\Debug\netstandard2.0\Entidades.AssemblyInfoInputs.cache
+C:\Users\Alex\Documents\GitHub\Laboratorio_2_materiales\StockStystem\Entidades\obj\Debug\netstandard2.0\Entidades.AssemblyInfo.cs
+C:\Users\Alex\Documents\GitHub\Laboratorio_2_materiales\StockStystem\Entidades\obj\Debug\netstandard2.0\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\Alex\Documents\GitHub\Laboratorio_2_materiales\StockStystem\Entidades\obj\Debug\netstandard2.0\Entidades.dll
+C:\Users\Alex\Documents\GitHub\Laboratorio_2_materiales\StockStystem\Entidades\obj\Debug\netstandard2.0\Entidades.pdb
