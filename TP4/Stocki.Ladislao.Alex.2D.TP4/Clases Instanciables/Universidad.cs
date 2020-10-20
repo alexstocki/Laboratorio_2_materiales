@@ -104,12 +104,27 @@ namespace Clases_Instanciables
 
         public static Profesor operator ==(Universidad g, EClases clase)
         {
-
+            foreach (Profesor profesor in g.Instructores)
+            {
+                if (profesor == clase)
+                {
+                    return profesor;
+                }
+            }
+            //lanzar excepcion
+            return null;
         }
 
         public static Profesor operator !=(Universidad g, EClases clase)
         {
-            
+            foreach (Profesor profesor in g.Instructores)
+            {
+                if (profesor != clase)
+                {
+                    return profesor;
+                }
+            }
+            return null;
         }
 
         public static Universidad operator +(Universidad g, EClases clase)
